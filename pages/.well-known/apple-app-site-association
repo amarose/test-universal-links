@@ -1,0 +1,20 @@
+{
+    "applinks": {
+        "apps": [],
+        "defaults": {
+            "caseSensitive": false
+        },
+        "details": [
+            {
+                "appID": "2PH89S8YQM.com.pushpushgo.iOS-example-integration",
+                "paths": [
+                    "/live/*/*",
+                    "/pakiety/*",
+                    "/program-tv/*/*",
+                    "/kanaly-tv/*/*",
+                    "/kolekcje/*"
+                ]
+            }
+        ]
+    }
+}
