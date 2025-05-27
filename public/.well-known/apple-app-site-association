@@ -12,7 +12,8 @@
                     "/pakiety/*",
                     "/program-tv/*/*",
                     "/kanaly-tv/*/*",
-                    "/kolekcje/*"
+                    "/kolekcje/*",
+                    "/wideo/*"
                 ]
             }
         ]
