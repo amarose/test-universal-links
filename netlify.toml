@@ -2,9 +2,6 @@
   command = "npm run build"
   publish = ".next"
 
-[[plugins]]
-  package = "./netlify-plugin-aasa.js"
-
 [[headers]]
   for = "/.well-known/apple-app-site-association"
   [headers.values]
@@ -15,7 +12,14 @@
 # Explicit redirect rule for AASA file
 [[redirects]]
   from = "/.well-known/apple-app-site-association"
-  to = "/.well-known/apple-app-site-association.json"
+  to = "/api/apple-app-site-association"
+  status = 200
+  force = true
+  headers = {Content-Type = "application/json"}
+
+[[redirects]]
+  from = "/apple-app-site-association"
+  to = "/api/apple-app-site-association"
   status = 200
   force = true
   headers = {Content-Type = "application/json"}
