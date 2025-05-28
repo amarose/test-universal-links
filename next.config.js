@@ -15,6 +15,20 @@ const nextConfig = {
         ]
       }
     ];
+  },
+  
+  // Set up rewrites to handle Apple App Site Association file
+  async rewrites() {
+    return [
+      {
+        source: '/.well-known/apple-app-site-association',
+        destination: '/api/apple-app-site-association'
+      },
+      {
+        source: '/apple-app-site-association',
+        destination: '/api/apple-app-site-association'
+      }
+    ];
   }
 };
 
